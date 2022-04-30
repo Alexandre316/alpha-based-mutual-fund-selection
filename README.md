@@ -16,7 +16,11 @@ For most investors, they always choose mutual funds by checking historical perfo
 - GROWTH(+): yoy growth rate of net profit (seasonal)
 - Initial: 300000CNY
 - buy cost/sell cost: 0.5%
-- **Note: 1) caution the actual publish date of stocks and mutual funds, and make sure do not include future data;  **
+- **Note: 1) caution the actual publish date of stocks and mutual funds, and make sure do not include future data;**
+<div align=center>
+![a](http://latex.codecogs.com/gif.latex?\\R_i)
+</div>
+
 
 ## Strategy Intro
 
