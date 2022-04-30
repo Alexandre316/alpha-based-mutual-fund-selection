@@ -17,9 +17,8 @@ For most investors, they always choose mutual funds by checking historical perfo
 - Initial: 300000CNY
 - buy cost/sell cost: 0.5%
 - **Note: 1) caution the actual publish date of stocks and mutual funds, and make sure do not include future data;**
-<div align=center>
-![a](http://latex.codecogs.com/gif.latex?\\R_i)
-</div>
+- Equation: ![](http://latex.codecogs.com/svg.latex?R_i=\\alpha+\\beta_{1,i}R_m+\\Sigma\beta_{k,i}R_k+\\epsilon_i)
+
 
 
 ## Strategy Intro
