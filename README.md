@@ -1,6 +1,6 @@
 # Alpha Based Mutual Fund Selection
 
-## Intro
+## Why I did this?
 
 For most investors, they always choose mutual funds by checking historical performance (ranking, annual return, Sharpe ratio, etc), which has triggered me to ponder: 1) Is the historical performance sustainable? 2) How effective is the historical performance? 
 
@@ -19,8 +19,6 @@ For most investors, they always choose mutual funds by checking historical perfo
 - **Note: 1) caution the actual publish date of stocks and mutual funds, and make sure do not include future data;**
 - Equation: ![](http://latex.codecogs.com/svg.latex?R_i=\\alpha+\\beta_{1,i}R_m+\\Sigma\beta_{k,i}R_k+\\epsilon_i)
 
-
-
 ## Strategy Intro
 
 - Grouped stocks into 3 batches and computed alpha for each stock as below:
@@ -28,11 +26,15 @@ For most investors, they always choose mutual funds by checking historical perfo
 
 ## Results
 
-- Sharpe:0.72；Annual Return:10.92%；Max Drawdown:14.23%
-- After I did some improvement: Sharpe:1.00；Annual Return:20.17%；Max Drawdown:21.17%
-- Please refer to my project to get all the trails I did and the results
+- Sharpe:0.72；Annual Return:10.92%；Max Drawdown:14.23%;
+- After I did some improvement: Sharpe:1.00；Annual Return:20.17%；Max Drawdown:21.17%;
+- There is little style favour;
+- Please refer to my project to get all the trails I did and the results.
+
+![a](./Plot/BalanceInAccount(SelfMade(Improved)).png)
+![a](./Plot/FundStyleSeries.png)
 
 ## Defects and Improvements
 
 - Much more details for factor building to be done: 1) price limit should be considered; 2) new stock should also be excluded; ...
-- How to choose factors to get Alpha is a thing
+- How to choose factors to get Alpha is a thing.
